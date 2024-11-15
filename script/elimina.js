@@ -13,7 +13,8 @@ const eliminaProdotto=function(){
    })
    .then((response)=>{
        if(response.ok){
-           alert("Prodotto eliminato con successo")
+           alert("Prodotto eliminato con successo");
+            window.location.href="./personale.html";
 
        }else{
            throw new Error("errore")

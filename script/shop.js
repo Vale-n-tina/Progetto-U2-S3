@@ -19,9 +19,9 @@ const inserimentoProdotto = function () {
         const row = document.getElementById("prodottiRow");
         const newCol = document.createElement("div");
         newCol.classList.add("col-12", "col-md-4", "col-lg-2");
-        newCol.innerHTML = `<div class="card">
-  <img src="${prodotto.imageUrl}" class="card-img-top" alt="immagine prodotto">
-  <div class="card-body">
+        newCol.innerHTML = `<div class="card h-100">
+  <img src="${prodotto.imageUrl}" class="card-img-top img-fluid" alt="immagine prodotto">
+  <div class="card-body  d-flex flex-column justify-content-between">
     <h5 class="card-title">${prodotto.name}</h5>
     <p class="card-text">${prodotto.description}</p>
     <p class="card-text fw-bold">${prodotto.brand}</p>
