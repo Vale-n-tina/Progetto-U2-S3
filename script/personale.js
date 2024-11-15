@@ -75,7 +75,7 @@ const inserimentoProdotto = function () {
     
     </div>
     <div class= "d-flex justify-content-center"> 
-      <a href="#" class="btn btn-warning mt-2">Elimina</a>
+      <a href="./elimina.html?prodottoId=${prodotto._id}" class="btn btn-warning mt-2">Elimina</a>
       </div>
     </div>
   </div>`;
@@ -89,10 +89,7 @@ const inserimentoProdotto = function () {
   inserimentoProdotto();
 
 
-  //ELIMINARE UN PRODOTTO SIA DALLO SHOP SIA DAL PERSONALE
-const eliminaProdotto=function(){
-    
-}
+  
 
 
 
