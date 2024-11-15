@@ -1,0 +1,21 @@
+@import "./functions";
+@import"./variables";
+
+ $sfondo: #18ad18;
+ $testo: rgb(224, 26, 26);
+ $setting:#6D4AB5;
+ $text:#523887;
+
+ $nuovi-colori:(
+
+    "primary":$sfondo,
+    "warning":$testo,
+    "success" :$setting,
+    "danger":$text
+
+
+ );
+
+ $theme-colors :map-merge($theme-colors , $nuovi-colori);
+
+ @import "./bootstrap.scss" 
